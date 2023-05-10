@@ -1,4 +1,3 @@
-import sys
 from VentanaSecundaria import Ui_VentanaSecundaria
 from PyQt6 import QtWidgets
 class VentanaSecundaria(QtWidgets.QMainWindow, Ui_VentanaSecundaria):

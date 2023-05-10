@@ -29,4 +29,4 @@
         -   ``QSpinBox()`` Este widget entrega unicamente valores enteros (int) por medio de su metodo ``value()``
         -   ``QDoubleSpinBox()`` Este widget entrega valores flotantes
         -   ``QSlider()`` Este widget entrega valores enteros dentro de un intervalo definido por el programador (minimo y maximo)
--   10. Es necesario una vez que se tiene el codigo fuente de la ventana creada en QtDesigner, importarlo en un nuevo archivo .py, y ejecutar el metodo que implementa QtDesigner para crear la ventana llamado ``setupUi()`` ademas de heredar de la ventana creada con QtDesigner.
+-   10. Es necesario una vez que se tiene el codigo fuente de la ventana creada en QtDesigner usando la herramienta pyuic6, importarlo en un nuevo archivo .py, y ejecutar el metodo que implementa QtDesigner para crear la ventana llamado ``setupUi()`` ademas de heredar de la ventana creada con QtDesigner, una ves que se "construyo" la ventana usando ``setupUi()`` bajo esa linea se pueden implementar metodos o lo que el programador desee.
