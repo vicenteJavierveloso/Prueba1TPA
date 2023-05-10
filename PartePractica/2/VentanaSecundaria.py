@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'ventanasecundaria.ui'
+# Form implementation generated from reading ui file 'VentanaSecundaria.ui'
 #
 # Created by: PyQt6 UI code generator 6.4.2
 #
@@ -28,9 +28,9 @@ class Ui_VentanaSecundaria(object):
         self.verticalLayout.addWidget(self.label)
         self.label_2 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
         self.label_2.setObjectName("label_2")
+        self.verticalLayout.addWidget(self.label_2)
         self.label_3 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
         self.label_3.setObjectName("label_3")
-        self.verticalLayout.addWidget(self.label_2)
         self.verticalLayout.addWidget(self.label_3)
         self.pushButton = QtWidgets.QPushButton(parent=self.verticalLayoutWidget)
         self.pushButton.setObjectName("pushButton")
@@ -44,5 +44,5 @@ class Ui_VentanaSecundaria(object):
         VentanaSecundaria.setWindowTitle(_translate("VentanaSecundaria", "VentanaSecundaria"))
         self.label.setText(_translate("VentanaSecundaria", "Información Mascota"))
         self.label_2.setText(_translate("VentanaSecundaria", "datos de la mascota"))
-        self.label_3.setText(_translate("VentanaSecundaria", ""))
+        self.label_3.setText(_translate("VentanaSecundaria", "texto"))
         self.pushButton.setText(_translate("VentanaSecundaria", "OK"))
